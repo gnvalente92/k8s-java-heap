@@ -59,3 +59,8 @@ Also from [1], it is mentioned that from `JDK 8u131+`, there’s an  experimenta
 ## References
 
 [1] [Java inside docker: What you must know to not FAIL](https://developers.redhat.com/blog/2017/03/14/java-inside-docker/)
+
+
+
+
+RAM FRACTION 1/4 IS TOO LITTLE - WE DON'T NEED SO MUCH SYSTEM RESOURCES RUNNING JAVA IN CONTAINERS
