@@ -56,6 +56,11 @@ We go back to the pod setup in the first scenario, unrestricted with a jdk versi
 Also from [1], it is mentioned that from `JDK 8u131+`, there’s an  experimental `VM` option that allows the `JVM` ergonomics to read the memory values from `CGgroups`, but I am not presenting this solution here, feel free to analyse that reference for more details on that topic.
 
 
+RECOMMENDATION:
+
+BOTH - UPDATE MEMORY AND CHANGE THE RATIO: HOW MUCH YOU CHANGE CAN ONLY COME FROM EXPERIENCE
+
+
 ## References
 
 [1] [Java inside docker: What you must know to not FAIL](https://developers.redhat.com/blog/2017/03/14/java-inside-docker/)
