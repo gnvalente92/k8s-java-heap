@@ -1,3 +1,9 @@
+EVEN GOING FOR A LATER VERSION OF 1.8 WE CAN ALREADY 
+
+https://stackoverflow.com/questions/49854237/is-xxmaxramfraction-1-safe-for-production-in-a-containered-environment THIS POST TALKS ABOUT STARTING WITH A 1/2 FRACTION
+
+
+
 # Managing Java Heap size in Kubernetes
 
 A guide on how to handle `Java Heap` (`jdk8`) size in `Kubernetes`.
