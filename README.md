@@ -6,7 +6,7 @@ A guide on how to handle `Java` (`jdk8`) heap size for containerised microservic
 
 I have come across the topic for this article while managing `Java` microservices in a `Kubernetes` environment for a project where, due to limited access to external software, we were limited to an older `jdk` version. We found that, when using a `jdk` version below `8u191` to containerise `Java` microservices, the `JVM` does not pick up the limit quotas attributed to that container.
 
-Consequently, before going any further, a disclaimer is required: if you are using a `jdk` version `8u191` or above, this article will probably not be relevant to you, but I find this sort of non-perfect world scenarios quite useful and please stick around for the recommendations section even if that is not your case. 
+Consequently, before going any further, a disclaimer is required: if you are using a `jdk` version `8u191` or above, this article will probably not be relevant to you, but I find this sort of non-perfect world scenarios quite useful. Additionally, please stick around for the recommendations section even if that is not your case. 
 
 Over the following subsections, I will present a couple of scenarios that illustrate the described topic, as well as a "how to replicate" piece.
 
