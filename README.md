@@ -15,7 +15,7 @@ Over the following subsections, I will present a couple of scenarios that illust
 If you want to verify the scenarios described below in your machine, you'll need the following:
 
 * minikube installed 
-* This `git` repository:
+* [This](https://github.com/gnvalente92/k8s-java-heap/) `git` repository:
     * manifests in k8s/manifests/scenario-*.yml.
     * Cheat sheet bash script -  it will automatically replicate all the results presented below.
 
