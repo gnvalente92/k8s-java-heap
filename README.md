@@ -1,6 +1,6 @@
 # Managing Java Heap size in Kubernetes
 
-A guide on how to handle `Java` (`jdk8`) heap size in `Kubernetes`.
+A guide on how to handle `Java` (`jdk8`) heap size for containerised microservices in `Kubernetes`.
 
 ## Problem statement
 
