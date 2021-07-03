@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: scenario-3
+  labels:
+    jdk: 8u191-jdk-alpine
+spec:
+  containers:
+    - name: openjdk 
+      image: openjdk:8u191-jdk-alpine
+      resources:
+        limits:
+          memory: "1Gi"
+        requests:
+          memory: "600Mi"
+      # Just spin & wait forever
+      command: [ "/bin/ash", "-c", "--" ]
+      args: [ "while true; do sleep 30; done;" ]

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: scenario-1
+  labels:
+    jdk: 8u181
+spec:
+  containers:
+    - name: openjdk
+      image: openjdk:8u181
+      # Just spin & wait forever
+      command: [ "/bin/bash", "-c", "--" ]
+      args: [ "while true; do sleep 30; done;" ]
